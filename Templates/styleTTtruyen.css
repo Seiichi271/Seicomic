@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,200;1,400;1,500&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+   
+    /* cursor: default; */
+}
+
+body{
+    background-color: #1b1b1b;
+   
+}
+
+#wrapper {
+    /* Kích thước màn hình là 1280 x 720 */
+    width: 100%;
+    height: 100vh;
+    background-color: #1b1b1b;
+  
+}
+#header {
+    width: 100%;
+    padding:0px 30px;
+    margin-top:13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    
+   
+}
+#header .logo img{
+    width: 60px;
+    height: 50%;
+}
+
+#menu {
+    list-style:none;
+    display: flex;
+  
+}
+
+#menu .item {
+    margin:0px 25px;
+    background-color: #1b1b1b;
+}
+
+#menu .item a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#wrapper .item a{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+#actions {
+    display: flex;
+}
+
+#actions .item {
+    margin-left:22px;
+}
+
+.tong {
+    width: 75%;
+    /* border: medium dashed rgb(255, 255, 255); */
+    position: relative;
+    margin-left: 150px;
+    /* justify-content: center; */
+    /* display: block; */
+    margin-top: 30px;
+    padding:0px 20px 20px 20px 20px;
+    line-height: 37px;
+    color: #ffffff;
+
+    
+
+}
+
+.tong .trai{
+    width: 75%;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+}
+
+.tong .thongtintruyen{
+    margin-top: 4px;
+    background-color: rgb(255, 47, 40);
+    size: 40px;
+    width: 100%;
+    font-size: 15px;
+    float: left;
+    width: 75%;
+    border-radius: 9px;
+    padding-left: 20px;
+}
+
+.tong .trai .tenT {
+
+    padding-top: 20px;
+    padding-bottom: 15px;
+   
+}
+.tong .trai .tenT a{
+    text-transform: uppercase;
+    color: #5590ff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.tong .trai .update {
+    float: right;
+    padding-right: 10px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.tong .phai{
+    width: 24%;
+    border: 1px solid rgb(255, 255, 255);
+ 
+    padding-left: 7px;
+    padding-top: 7px;
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 30px;
+    
+  
+   
+}
+
+
+
+
+.chuong {
+    width: 55%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 150px;
+    border: 1px solid rgb(255, 255, 255);
+    color: #fff;
+    border-radius: 10px;
+}
+
+.chuong p{
+    padding-top: 7px;
+    padding-left: 12px;
+    padding-bottom: 6px;
+    background-color: #189274;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-top: 50px;
+     width: 100%;
+   
+     font-size: 15px;
+   
+ }
+ 
+ 
+.tong .trai a{
+    color: #00c3ff;
+}
+ 
+.tong .phai h4{
+    background-color: #0066ff;
+    border: 1px solid rgb(255, 255, 255);
+    color: white;
+    text-transform:uppercase;
+    text-align: center;
+    text-decoration:underline;
+    margin-right: 8px;
+    margin-bottom: 7px;
+}
+ 
+ 
+ td {
+     padding: 3px;
+     text-align: center;
+     
+ }
+
+tr {
+    padding-left: 2px;
+    margin: 10px;
+    border: 1px solid;
+    
+}
+h2{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #00a2ff;
+ }
+
+ hr{
+   margin-top: 30px;
+   margin-bottom: 15px;
+ }
+ 
+ hr{
+   
+   margin-left: 20px;
+    width: 100%;
+   
+ }
+
+ .tttp{
+    margin-top: 50px;
+    margin-left: 220px;
+    margin-right: 220px;
+    color: #fff;
+    font-size: 19px;
+    background-color: #012f5f;
+    padding: 6px;
+ }
+
+ .tttp a{
+    color: #48a0ff;
+ }
+
+ .chon-chap{
+    /* border: 1px solid rgb(255, 255, 255);  */
+    margin-left:480px;
+    margin-top: 20px;
+    margin-right: 450px;
+    
+  
+    /* display: block; */
+
+ }
+
+ .chon-chap .form-control{
+    width: 230px;
+    /* margin-top: 30px; */
+    
+    padding: 3px;
+   
+ }
+
+.chon-chap .n-prev{
+    display: inline;
+    padding: 10px;
+    padding-top: 3px;
+    
+
+   
+    
+}
+
+.chon-chap .n-next{
+    display: inline;
+    padding: 10px;
+}
+
+.anhtruyenIMG{
+    /* margin-left: 100px; */
+    margin-top: 30px;
+    text-align: center;
+}
